@@ -1,0 +1,19 @@
+pwd: path to working directory
+clear: clears the screen of the terminal
+ls: list files and folders in current dir
+ -a: include hidden files and folders in the list
+ -l: list the details for the files and folders in current dir
+cd <path>: change directory to the path specified
+ used without argument: goes to your home directory
+ ..: goes up one level
+mkdir <dirname>: creates a new directory inside the directory where you are
+touch <file>: creates an empty file
+cd <file> <path>: copy the file to the location specified by path
+ -r <dir> <path>: copy the entire contents (recursively) to the path specified
+rm <file>: removes (deletes) the file specified
+ -r <dir>: removes the dir and everything inside it (recursively) there is NO UNDO!
+mv <file> <path>: moves the file to the path specified
+mv <file> <newfile>: renames the file ('moves' the file to the new name)
+echo <args>: prints your arguments
+ >> <file>: prints your arguments to the specified file
+date: prints today's date 
